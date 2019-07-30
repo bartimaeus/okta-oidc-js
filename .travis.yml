@@ -3,9 +3,9 @@ node_js:
 - '8.10'
 addons:
   chrome: stable
-  apt:
-    packages:
-      - oracle-java9-set-default
+
+jdk:
+  - oraclejdk11
 
 script:
 - yarn install
